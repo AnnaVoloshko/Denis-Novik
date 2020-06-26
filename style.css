@@ -1,0 +1,230 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold'), url('fonts/Gilroy-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium'), url('fonts/Gilroy-Medium.woff') format('woff');
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: 'Gilroy-Bold';
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.menu-block{
+    border-bottom: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+li{
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+}
+.link.eng{
+    color: #070707;
+}
+.link:hover{
+    color: #070707;
+}
+
+
+.header{
+    padding-bottom: 104px;
+}
+.title-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 39px 0;
+    width: 590px;
+    position: relative;
+}
+.name{
+    font-size: 47px;
+    line-height: 59px;
+    width: 123px;
+    color: #070707;
+    margin: 0;
+}
+.some-info{
+    font-family: 'Gilroy-Medium';
+}
+.skills,
+.age{
+    width: 156px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin: 0;
+}
+.language{
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    display: flex;
+    position: absolute;
+    top: 108px;
+    left: 922px;
+}
+.line{
+    margin: -1px 4px 0 4px;
+    color: #070707;
+}
+.denis-photo{
+    width: 100%;
+}
+
+
+.about-me-cover-block{
+    background-color: #F6F6F6;
+    padding: 120px 0 106px 0;
+    text-align: center;
+    color: #070707;
+}
+.title{
+    font-family:'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+}
+.text{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    width: 485px;
+    margin: auto;
+    padding: 0 0 34px 0;
+}
+.text.text-1{
+    padding: 0;
+}
+.text.text-2{
+    width: 352px;
+}
+
+
+
+.skills-cover-block{
+    padding: 91px 0 110px 0;
+    text-align: center;
+}
+.text-skills{
+    padding: 27px 0 84px 0;
+}
+.programs-block{
+    display: flex;
+    justify-content: space-between;
+}
+.text.program-name{
+    width: 81px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    padding: 24px 0 40px 0;
+}
+.text.program-name.figma{
+    padding: 24px 0 57px 0;
+}
+.skill-level{
+    background-image: url("img/stars-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 167px;
+    height: 26px;
+}
+.skill-level.skill-level-2{
+    background-image: url("img/stars-2.png");
+}
+
+
+.portfolio-cover-block{
+    padding-top: 113px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.title.title-1{
+    padding-bottom: 47px;
+}
+.portfolio-block-1{
+    padding-bottom: 99px;
+}
+.photo{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.text.text-portfolio{
+    color: #070707;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contacts-cover-block{
+    padding: 114px 0 123px 0;
+    text-align: center;
+}
+.text.button{
+    color: #fff;
+    background-color: #070707;
+    padding: 13px 28px;
+    width: 182px;
+    border-radius: 30px;
+    border: none;
+}
+.websites-block{
+    padding: 86px 0 45px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 342px;
+    margin: auto;
+}
+.text.button:hover{
+    background-color: #070707b2;
+}
+.link-block{
+    width: 40px;
+    height: 40px;
+    background-image: url("img/linkedin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.link-block.instagram{
+    background-image: url("img/instagram.png");
+}
+.link-block.behance{
+    background-image: url("img/be.png");
+}
+.link-block.dribble{
+    background-image: url("img/ball.png");
+}
+.text.program-name.contacts-text{
+    width: 243px;
+    padding: 0;
+}
